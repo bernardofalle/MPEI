@@ -1,0 +1,11 @@
+%state 1 - going to class
+%state 2 - not going to class
+
+%2 states, square matrix 2x2
+
+t=[0.7 0.8
+   0.3 0.2];   %first column, state going to class, second column, state not going to class
+
+%we need to start with a state
+%vector with the same size as the number of states
+
