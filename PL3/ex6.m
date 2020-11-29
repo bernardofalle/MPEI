@@ -56,10 +56,10 @@ t=[
   %g)
   
     R=t(4:5,1:3);
-    B=R*F
+    B=R*F;
     
     %starting in state 1 (column1) so we want the probability of it jumping
-    %to state 3 and the probability of it jumping to state 5
+    %to state 3 and the probability of it jumping to state 5 in column one
     
     prob_3=B(1,1) %line 1 column 1
     prob_5=B(2,1) %line 2 column 1  
